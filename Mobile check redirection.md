@@ -6,7 +6,7 @@
 var filter = "win16|win32|win64|mac";
 if( navigator.platform ){
     if( filter.indexOf(navigator.platform.toLowerCase()) < 0 ){
-        location.href = "http://www.naver.com"
+        location.href = "http://www.naver.com" // Redirection할 페이지 URL
     }
 }
 ~~~~
@@ -21,6 +21,6 @@ if( navigator.userAgent.match(/Android/i)
     || navigator.userAgent.match(/BlackBerry/i)
     || navigator.userAgent.match(/Windows Phone/i)
 ){
-    location.href = "http://herop.me/mobile"
+    location.href = "http://www.naver.com" // Redirection할 페이지 URL
 }
 ~~~~
