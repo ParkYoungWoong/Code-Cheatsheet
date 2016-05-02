@@ -4,9 +4,10 @@
 ### 운영체제로 체크
 ~~~~
 var filter = "win16|win32|win64|mac";
-if( navigator.platform ){
+if( navigator.platform ) {
     if( filter.indexOf(navigator.platform.toLowerCase()) < 0 ){
-        location.href = "http://www.naver.com" // Redirection할 페이지 URL
+        // Redirection할 페이지 URL
+        location.href = "http://www.naver.com";
     }
 }
 ~~~~
@@ -20,7 +21,8 @@ if( navigator.userAgent.match(/Android/i)
     || navigator.userAgent.match(/iPod/i)
     || navigator.userAgent.match(/BlackBerry/i)
     || navigator.userAgent.match(/Windows Phone/i)
-){
-    location.href = "http://www.naver.com" // Redirection할 페이지 URL
+) {
+    // Redirection할 페이지 URL
+    location.href = "http://www.naver.com";
 }
 ~~~~
