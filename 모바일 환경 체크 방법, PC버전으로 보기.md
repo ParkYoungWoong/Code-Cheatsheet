@@ -37,5 +37,5 @@ if (location.href.indexOf("desktopMode") === -1) {
 
 #### 'PC버전 보기' 버튼 URL
 ~~~~
-url주소?desktopMode
+<a class="desktop_mode" href="http://www.naver.com?desktopMode">DESKTOP MODE</a>
 ~~~~
