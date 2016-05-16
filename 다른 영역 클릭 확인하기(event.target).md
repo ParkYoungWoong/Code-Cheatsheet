@@ -4,8 +4,6 @@
 ````
 $("*", document.body).on("click", function (e) {
     e.stopPropagation();
-    // console.log($(e.target).parents().hasClass("클래스이름"));
-    
     if (!$(e.target).parents().hasClass("클래스이름")) {
         // 다른 영역을 클릭했을 때의 동작
     }
