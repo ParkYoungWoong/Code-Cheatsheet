@@ -26,8 +26,9 @@ if( navigator.userAgent.match(/Android/i)
 }
 ~~~~
 
+
 ___
-___
+
 
 # 'PC버전 보기'를 위한 조건문
 
