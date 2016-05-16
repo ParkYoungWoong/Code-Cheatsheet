@@ -1,5 +1,4 @@
-# Mobile Check Redirection
-- 모바일 디바이스를 체크하여 모바일페이지로 리다이렉션하는 코드
+# 모바일 환경 체크 리다이렉션
 
 ### 운영체제로 체크
 ~~~~
@@ -25,4 +24,18 @@ if( navigator.userAgent.match(/Android/i)
     // Redirection할 페이지 URL
     location.href = "http://www.naver.com";
 }
+~~~~
+
+# 'PC버전 보기'를 위한 조건문
+
+#### 고정형 사이트의 최상단에 삽입
+~~~~
+if (location.href.indexOf("desktopMode") === -1) {
+    // 모바일 환경 체크 리다이렉션 코드 삽입
+}
+~~~~
+
+#### 'PC버전 보기' 버튼 URL
+~~~~
+url주소?desktopMode
 ~~~~
