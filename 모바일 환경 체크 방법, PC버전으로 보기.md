@@ -26,6 +26,9 @@ if( navigator.userAgent.match(/Android/i)
 }
 ~~~~
 
+___
+___
+
 # 'PC버전 보기'를 위한 조건문
 
 #### 고정형 사이트의 최상단에 삽입
