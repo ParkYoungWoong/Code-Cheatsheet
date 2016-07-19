@@ -1,7 +1,7 @@
 # setInterval() 을 setTiemout() 으로 대체하기
 - setInterval() 은 시스템의 환경에 영향을 받기 때문에 정확하지 않을 수 있음
 
-````
+````js
 var timer = null;
 function myTimeOutFunc() {
     var d = new Date();
