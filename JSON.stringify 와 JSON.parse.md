@@ -1,7 +1,8 @@
 # JSON.stringify
-- JavaScript 값을(Object를) JSON 문자열로 변환
 
-```
+JavaScript 값을(Object를) JSON 문자열로 변환
+
+```js
 var message = {
   event: "command"
   ,func: "playVideo"
@@ -12,9 +13,10 @@ JSON.stringify(message);
 ```
 
 # JSON.parse
-- JSON 문자열을 JavaScript Object로 변환
 
-```
+JSON 문자열을 JavaScript Object로 변환
+
+```js
 var message = {
   event: "command"
   ,func: "playVideo"
