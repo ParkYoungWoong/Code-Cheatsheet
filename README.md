@@ -1,4 +1,4 @@
 # JavaScript(jQuery)
 - Hello~ JavaScript(jQuery) Memo page!
 
-#[↑ Find file] (https://github.com/ParkYoungWoong/JavaScript-jQuery-Memo/find/master)
+#[↑ You click here to find the file.] (https://github.com/ParkYoungWoong/JavaScript-jQuery-Memo/find/master)
